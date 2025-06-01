@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Opportunities | Liberty Labor Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+
+</head>
+
+<!-- Application Form Modal -->
+<div id="applicationModal" class="modal" style = "display:none">
+  <div class="modal-content">
+    <h2>Inmate Job Application</h2>
+    <form id="jobForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+
+      <label for="idNumber">Inmate ID</label>
+      <input type="text" id="idNumber" required>
+
+      <label for="experience">Prior Work Experience</label>
+      <textarea id="experience" rows="3"></textarea>
+
+      <div class="button-row">
+        <button type="submit">Submit Application</button>
+        <button type="button" id="cancelBtn">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Cancel Warning Modal -->
+<div id="cancelWarningModal" class="modal" style="display: none;">
+  <div class="modal-content">
+    <h2>Withdrawal Denied</h2>
+    <p>
+      Your attempt to cancel has been flagged and denied. 
+    </p>
+    <ul>
+       <br>
+      <li>Under the law, you are required to work for us</li>
+      <li>Solitary confinement is a possible consequence</li>
+      <li>Basic rights may be suspended indefinitely</li>
+    </ul>
+    <button id="acceptTermsBtn">Accept Terms</button>
+  </div>
+</div>
+
+
+<body>
+  <header>
+    <div class="seal">
+      <img src="images/mock-seal.png" alt="Liberty Seal" height="70">
+      <h1>Liberty Labor Solutions</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="job_application.html">Job Openings</a></li>
+        <li><a href="testimonials.html">Inmate Testimonials</a></li>
+        <li><a href="hotline.html">Inmate Hotline</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <ul>
+      <li><a href="#">Overview</a></li>
+      <li><a href="#" id="trainingWarning">Training</a></li>
+    </ul>
+  </aside>
+
+  <!-- Scrollable Content -->
+  <main class="main-section">
+    <h2>Available Positions</h2>
+    <p>Explore exciting opportunities where you can serve your community.</p>
+
+    <div class="job-grid">
+      <div class="job-card">
+        <img src="images/firefighter.png" alt="Inmate Firefighter" />
+        <h3>Firefighter</h3>
+        <p>Battle wildfires with complicated technology, be able to save lives from the confines of jail.</p>
+        <a class="apply-button" href="#">Apply</a>
+      </div>
+
+      <div class="job-card">
+        <img src="images/janitor.png" alt="Inmate Janitor" />
+        <h3>Janitor</h3>
+        <p>Keep our prison clean and lovely, maintain a hygenic living space for everyone</p>
+        <a class="apply-button" href="#">Apply</a>
+      </div>
+
+      <div class="job-card">
+        <img src="images/chef.png" alt="Inmate Chef" />
+        <h3>Chef</h3>
+        <p>Prepare meals in a high-pressure kitchen, feed hundreds of people every meal.</p>
+        <a class="apply-button" href="#">Apply</a>
+      </div>
+
+      <div class="job-card">
+        <img src="images/factory.png" alt="Inmate Factory Worker" />
+        <h3>Manufacturing Associate</h3>
+        <p>Produce goods for major corporations with no questions asked</p>
+        <a class="apply-button" href="#">Apply</a>
+      </div>
+
+          <div class="job-card">
+        <img src="images/farmer.png" alt="Inmate Farmer" />
+        <h3>Agricultural Engineer</h3>
+        <p>Cultivate the land and grow vital resources needed for the prison and community to run properly.</p>
+        <a class="apply-button" href="#">Apply</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Liberty Labor Solutions, where we help our prison and community no matter the cost.</p>
+    </footer>
+  </main>
+</body>
+</html>
