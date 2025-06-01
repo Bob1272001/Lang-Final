@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sources | Liberty Labor Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 12pt;
+      line-height: 2;
+      background-color: #fff;
+      color: #000;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      background-color: #003366; 
+      color: white;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .seal {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .seal h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1rem 0 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white; 
+    }
+
+    nav ul li a.active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      padding: 2rem;
+      margin-top: 140px; /* Pushes content below fixed header */
+    }
+
+    .works-cited {
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .works-cited h1 {
+      text-align: center;
+      font-weight: normal;
+    }
+
+    .works-cited p {
+      margin: 0 0 1em 0;
+      text-indent: -0.5in;
+      padding-left: 0.5in;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 1rem;
+      font-size: 10pt;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="seal">
+      <img src="images/mock-seal.png" alt="Liberty Seal" height="70">
+      <h1>Liberty Labor Solutions</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="job_application.html">Job Openings</a></li>
+        <li><a href="testimonials.html">Inmate Testimonials</a></li>
+        <li><a href="hotline.html">Inmate Hotline</a></li>
+        <li><a href="sources.html" class="active">Sources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="works-cited">
+      <h1>Works Cited</h1>
+
+      <p>Anderson, Meg. “Prisoners Are Suing Alabama over Forced Labor, Calling It a 'Form of Slavery.'” <em>NPR</em>, 14 Dec. 2023, https://www.npr.org/2023/12/14/1219187249/prisoners-are-suing-alabama-over-forced-labor-calling-it-a-form-of-slavery. Accessed 1 June 2025.</p>
+
+      <p>Li, Cornelia, and Adrian Drepaul. “I Had a Shitty Job in Prison.” <em>The Marshall Project</em>, 8 Aug. 2019, https://www.themarshallproject.org/2019/08/08/i-had-a-shitty-job-in-prison. Accessed 1 June 2025.</p>
+
+      <p>Mercer, Martha. “‘A Vestige of Slavery’: Why Advocates Are Fighting to Make Prison Labor Voluntary.” <em>Fast Company</em>, 8 Sept. 2022, https://www.fastcompany.com/90786914/a-vestige-of-slavery-why-advocates-are-fighting-to-make-prison-labor-voluntary. Accessed 1 June 2025.</p>
+
+      <p>“Prison Labor Is Modern Slavery. I've Been Sent to Solitary for Speaking Out | Kevin Rashid Johnson.” <em>The Guardian</em>, 23 Aug. 2018, https://www.theguardian.com/commentisfree/2018/aug/23/prisoner-speak-out-american-slave-labor-strike. Accessed 1 June 2025.</p>
+
+      <p>Xu, Nicole, and Timothy D.V. Bazrowx. “Fields of Blood: My Life As a Prison Laborer.” <em>The Marshall Project</em>, 24 Jan. 2019, https://www.themarshallproject.org/2019/01/24/fields-of-blood-my-life-as-a-prison-laborer. Accessed 1 June 2025.</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Liberty Labor Solutions. Empowering people. Building futures.</p>
+  </footer>
+</body>
+</html>
