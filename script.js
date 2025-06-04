@@ -1,6 +1,3 @@
-// You can expand this file as needed.
-// For now, just a placeholder if you want hover-reveal satire later.
-
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("testimonyForm");
 
